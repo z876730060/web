@@ -4,7 +4,7 @@ go 1.22.2
 
 require (
 	github.com/gin-gonic/gin v1.9.1
-	github.com/z876730060/ToT v1.0.3
+	github.com/z876730060/ToT v0.0.0
 )
 
 require (

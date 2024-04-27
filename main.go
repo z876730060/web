@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	server := pkg.NewServer().InitLog("web")
+	server := pkg.NewServer().InitLog("web").SetBanner("banner.txt")
 	e := gin.New()
 	e.Use(gin.Recovery(), gin.Logger())
 	e.GET("/", func(c *gin.Context) {
