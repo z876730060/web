@@ -5,9 +5,8 @@ import (
 	"github.com/z876730060/ToTServer/pkg"
 	"net/http"
 	api "web/pkg/api"
+	. "web/pkg/constant"
 )
-
-var Server *pkg.Server
 
 func Setup() {
 	Server = pkg.NewServer().InitLog("web").InitCron().SetBanner("banner.txt")
