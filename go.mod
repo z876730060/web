@@ -1,4 +1,4 @@
-module web
+module github.com/z876730060/web
 
 go 1.22.2
 
