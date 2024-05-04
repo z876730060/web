@@ -36,5 +36,3 @@ require (
 	google.golang.org/protobuf v1.34.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/z876730060/ToTServer v0.0.0-20240504055157-ae17f888b564 => ../tot
