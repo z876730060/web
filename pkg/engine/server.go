@@ -3,9 +3,9 @@ package engine
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/z876730060/ToTServer/pkg"
+	api "github.com/z876730060/web/pkg/api"
+	. "github.com/z876730060/web/pkg/constant"
 	"net/http"
-	api "web/pkg/api"
-	. "web/pkg/constant"
 )
 
 func Setup() {

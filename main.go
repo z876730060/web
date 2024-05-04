@@ -1,7 +1,7 @@
 package main
 
 import (
-	"web/pkg/engine"
+	"github.com/z876730060/web/pkg/engine"
 )
 
 func main() {
