@@ -1,0 +1,12 @@
+info:
+  contact: {}
+paths:
+  /:
+    get:
+      description: index
+      responses:
+        "200":
+          description: 成功响应
+          schema:
+            type: string
+swagger: "2.0"

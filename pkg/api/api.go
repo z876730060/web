@@ -8,6 +8,9 @@ import (
 	"net/http"
 )
 
+// @Description index
+// @Router / [get]
+// @Success 200 {string} string "成功响应"
 func HelloWorld() func(*gin.Context) {
 	return func(ctx *gin.Context) {
 		ctx.String(200, "Hello World")
